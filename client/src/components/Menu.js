@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import {Box, IconButton} from "@mui/material";
-import logoBlack from "../static/logo-black.png";
-import logoWhite from "../static/logo-white.png";
+import logoBlack from "../static/logo115_115_dark.png";
+import logoWhite from "../static/logo115_115_white.png";
 import {useTheme} from "@mui/material/styles";
 import {ColorModeContext} from '../App';
 

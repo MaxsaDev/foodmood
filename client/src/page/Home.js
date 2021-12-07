@@ -50,7 +50,7 @@ const Home = () => {
           }}
 
         >
-          <Link href={MenuItem1} target={'_blank'} sx={{textDecoration: 'none'}}>
+          <NavLink to={MUNUDISHES_ROUTE} sx={{textDecoration: 'none'}}>
             <Button
               sx={{
                 // border: '1px green solid',
@@ -65,9 +65,9 @@ const Home = () => {
             >
               Menu Głowne
             </Button>
-          </Link>
+          </NavLink>
 
-          <Link href={MenuItem2} target={'_blank'} sx={{textDecoration: 'none'}}>
+          <NavLink to={MUNUDISHES_ROUTE} sx={{textDecoration: 'none'}}>
             <Button
               sx={{
                 // border: '1px green solid',
@@ -81,9 +81,9 @@ const Home = () => {
             >
               Zdrowe Jedzenie
             </Button>
-          </Link>
+          </NavLink>
 
-          <Link href={MenuItem3} target={'_blank'} sx={{textDecoration: 'none'}}>
+          <NavLink to={MUNUDISHES_ROUTE} sx={{textDecoration: 'none'}}>
             <Button
               sx={{
                 // border: '1px green solid',
@@ -97,7 +97,7 @@ const Home = () => {
             >
               Śniadania
             </Button>
-          </Link>
+          </NavLink>
 
           <NavLink to={MUNUDISHES_ROUTE} sx={{textDecoration: 'none'}}>
             <Button
@@ -116,7 +116,7 @@ const Home = () => {
           </NavLink>
 
 
-          <Link href={'tel:+48576329742'} sx={{textDecoration: 'none'}}>
+          <Link href={'tel:+48000000000'} sx={{textDecoration: 'none'}}>
             <Button
               startIcon={<PhoneInTalkIcon/>}
               sx={{
